@@ -12,7 +12,10 @@ const Hero = () => {
   return (
     <section id="hero">
       <div>
-        <h1>Macbook Air</h1>
+        <h1>Macbook Pro</h1>
+        <h1>
+          <span className="text-[#8FC2E4]">Now supercharged by M4.</span>
+        </h1>
         <img src="./title.png" alt="Macbook Title" />
       </div>
       <video
@@ -23,7 +26,7 @@ const Hero = () => {
         playsInline
       ></video>
       <button>Buy</button>
-      <p>From $999 or $83.25/mo. for 12 mo.</p>
+      <p>From $1,999 or $166.58 per month for 12 months.</p>
     </section>
   );
 };
